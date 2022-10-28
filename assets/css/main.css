@@ -1,0 +1,405 @@
+@font-face {
+  font-family: "Gotham";
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Gotham-Light.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/Gotham-Light.eot") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/Gotham-Light.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/Gotham-Light.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/Gotham-Light.ttf") format("svg"); /* Legacy iOS */
+}
+@font-face {
+  font-family: "Gotham";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Gotham-Medium.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/Gotham-Medium.eot") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/Gotham-Medium.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/Gotham-Medium.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/Gotham-Medium.ttf") format("svg"); /* Legacy iOS */
+}
+@font-face {
+  font-family: "Gotham";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Gotham-Black.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/Gotham-Bold.eot") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/Gotham-Bold.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/Gotham-Bold.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/Gotham-Bold.ttf") format("svg"); /* Legacy iOS */
+}
+@font-face {
+  font-family: "Gotham";
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Gotham-Black.eot"); /* IE9 Compat Modes */
+  src: local(""), url("../fonts/Gotham-Black.eot") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/Gotham-Black.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/Gotham-Black.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/") format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/Gotham-Black.ttf") format("svg"); /* Legacy iOS */
+}
+body,
+html {
+  font-family: "Gotham";
+  color: #000f36;
+  overflow-x: hidden;
+}
+.slider img{
+  object-fit: contain;
+}
+.s-bannner img {
+  width: 47%;
+}
+.shadow-btn {
+  box-shadow: 5px 5px 10px #00000043;
+}
+.shadow-card {
+  box-shadow: 15px 15px 30px #000000c1;
+}
+.shadow-caract {
+  box-shadow: 3px 3px 6px #00000045;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.title--start {
+  justify-content: start;
+  text-align: start;
+}
+.title:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  background-color: #4a94ef;
+  height: 5px;
+  bottom: -3px;
+  border-radius: 10px;
+}
+.title-gray:after {
+  background-color: #86c1e3;
+}
+.subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+.subtitle--start {
+  text-align: start;
+}
+
+.slider-clients .slick-arrow.slick-prev {
+  left: 0;
+  background: url("../img/arrow.svg") 0 0 / 100% no-repeat;
+  background-size: contain;
+  transform: rotate(180deg);
+}
+.slider-clients .slick-arrow.slick-next {
+  right: 0;
+  background: url("../img/arrow.svg") 0 0 / 100% no-repeat;
+  background-size: contain;
+}
+.slick-next,
+.slick-prev {
+  top: 65% !important;
+}
+.slick-next:before,
+[dir="rtl"] .slick-prev:before,
+.slick-prev:before {
+  content: "" !important;
+}
+.slider-clients .slider .slick-arrow.slick-disabled {
+  opacity: 0.2;
+}
+
+/* Default slide */
+.center-slider .slick-slide {
+  margin: 0 15px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0.8);
+  transition: all 0.4s ease-in-out;
+  padding-bottom: 3.5rem;
+  color: #a3a3a3;
+}
+.center-slider .slick-slide,
+.center-slider
+  .slick-slide[aria-hidden="true"]:not(.slick-cloned)
+  ~ .slick-cloned[aria-hidden="true"] {
+  transform: scale(0.8, 0.8);
+  transition: all 0.4s ease-in-out;
+}
+
+/* Active center slide (You can change anything here for cenetr slide)*/
+.center-slider .slick-center,
+.center-slider
+  .slick-slide[aria-hidden="true"]:not([tabindex="-1"])
+  + .slick-cloned[aria-hidden="true"] {
+  transform: scale(1.1);
+}
+.center-slider .slick-current.slick-active {
+  transform: scale(1.1);
+  color: #000f36;
+}
+
+.slick-current.slick-active .icon-test {
+  filter: contrast(1);
+}
+
+.slick-next,
+.slick-prev {
+  z-index: 5;
+}
+.slick-next {
+  right: 15px;
+}
+.slick-prev {
+  left: 15px;
+}
+.slick-next:before,
+.slick-prev:before {
+  color: #000;
+  font-size: 26px;
+}
+.wrapper {
+  padding-top: 90px;
+}
+.icon-test {
+  top: 9px;
+  max-width: 53px;
+  right: -15px;
+  filter: contrast(0.5);
+}
+.center-slider .slick-slider .slick-list,
+.slick-slider .slick-track {
+  padding-top: 1rem;
+}
+.v-comunity {
+  overflow-x: hidden;
+}
+.v-bg::after {
+  background-image: url(../img/bg-dark.svg);
+  /*background: #000f36;*/
+  background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 78%;
+  z-index: -1;
+  bottom: 6px;
+}
+.v-comunity__card {
+  width: 250px;
+  border-radius: 10px;
+}
+.v-comunity__card--green {
+  position: absolute;
+  bottom: -200px;
+  left: 100px;
+}
+
+.accordion .accordion-item {
+  /*border-bottom: 1px solid #e5e5e5;*/
+}
+.accordion .accordion-item button[aria-expanded="true"] {
+  background: #1890ff;
+}
+.accordion button {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 1em;
+  color: #000f36;
+  font-size: 1.1rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+  box-shadow: 5px 5px 10px #00000043;
+  border-radius: 13px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.accordion button:hover,
+.accordion button:focus {
+  cursor: pointer;
+  color: #03b5d2;
+}
+.accordion button:hover::after,
+.accordion button:focus::after {
+  cursor: pointer;
+  color: #03b5d2;
+  border: 1px solid #03b5d2;
+}
+.accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+}
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 15px;
+  width: 22px;
+  height: 22px;
+  border-radius: 22px;
+  background-image: url(../img/arrow.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: "";
+}
+.accordion button .icon::after {
+}
+.accordion button[aria-expanded="true"] {
+  color: #fff;
+}
+.accordion button[aria-expanded="true"] .icon::after {
+  width: 0;
+}
+.accordion button[aria-expanded="true"] + .accordion-content {
+  opacity: 1;
+  max-height: max-content;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content p {
+  font-size: 0.8rem;
+  font-weight: 200;
+  margin: 0em 0;
+  padding: 0 1rem;
+  color: #36464f;
+}
+
+.c-drop input[type="checkbox"]:checked + label + div {
+  max-height: 8rem;
+  overflow: auto;
+  background-color: #fde3a7;
+  box-shadow: 4.6px 4.6px 5px #aaaaaa;
+}
+
+.v-team__card {
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.v-team__card:hover::before {
+  background: #1890ff8f;
+  z-index: 0;
+  content: "Daffl te ayuda a hacer crecer tu marca ";
+  position: absolute;
+  height: 100%;
+  width: 60%;
+  border-radius: 6px;
+  transition: 0.5s;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.v-team__card--green {
+  position: absolute;
+  bottom: -123px;
+  left: 100px;
+}
+@media (max-width: 640px) { 
+
+  .v-team__card--green {
+    position: absolute;
+    bottom: -110px;
+    left: 55px;
+  }
+  .v-team__card--green:hover::before {
+    text-align: 10px;
+  }
+
+}
+.v-team__card img {
+  width: 60%;
+}
+.v-team__card--green img {
+  width: 78%;
+}
+
+.v-team__card--green:hover::before {
+  background: #86c1e3a3;
+  z-index: 0;
+  content: "Daffl te ayuda a hacer crecer tu marca ";
+  position: absolute;
+  height: 100%;
+  width: 78%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 6px;
+}
+.image-about {
+  width: 44% !important;
+  transform: translateY(-9rem);
+  object-fit: contain;
+}
+#sortbox:checked ~ #sortboxmenu {
+  opacity: 1;
+}
+
+.oval {
+  position: absolute;
+  z-index: -1;
+  left: 10%;
+}
+.card-price {
+  height: 400px;
+  border-radius: 21px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem 0;
+  box-shadow: 3px 3px 6px #0000005d;
+  border: 1px solid #cbcbcb;
+  border-radius: 26px;
+  margin-bottom: 1rem;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #dbdbdb;
+  border-top: 8px solid #ffffff;
+  border-bottom: 8px solid #ffffff;
+  border-left: 5px solid #ffffff;
+  border-right: 5px solid #ffffff;
+}
