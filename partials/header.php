@@ -13,6 +13,10 @@
 </head>
 
 <body>
+    <div class="elipse bg-light">
+        <img src="assets/img/logo.png" alt="">
+    </div>
+
     <header>
         <nav class="lg:absolute fixed z-50 bg-white lg:flex-row bg-white md:bg-transparent flex-col top-0 flex items-center justify-between w-full text-lg text-gray-700 px-5  lg:px-10 pt-4">
             <div class="lg:block flex items-center justify-between w-full lg:w-auto">

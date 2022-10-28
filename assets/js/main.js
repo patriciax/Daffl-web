@@ -62,7 +62,6 @@ $(document).ready(function () {
           slidesToScroll: 1,
         },
       },
-
     ],
   });
   $(".center-slider").slick({
@@ -100,9 +99,7 @@ $(document).ready(function () {
           slidesToScroll: 1,
         },
       },
-
     ],
-    
   });
 });
 const button = document.querySelector("#menu-button");
@@ -128,3 +125,8 @@ function toggleAccordion() {
 }
 
 items.forEach((item) => item.addEventListener("click", toggleAccordion));
+
+//loader
+window.setTimeout(function () {
+  $(".elipse").fadeOut(100);
+}, 2000);
