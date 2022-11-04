@@ -23,7 +23,7 @@
                     <p class="font-bold mb-4 uppercase">Menú </p>
                     <ul class="font-extralight">
                         <li><a href="">Inicio</a></li>
-                        <li><a href=""> Quines somos </a></li>
+                        <li><a href=""> Quienes somos </a></li>
                         <li><a href=""> Quiero ser Daffler</a></li>
                         <li><a href=""> Precios </a></li>
                         <li><a href=""> Servicios </a></li>
@@ -34,15 +34,14 @@
                     <p class="font-bold mb-4">CONTÁCTANOS</p>
                     <ul class="mb-6 font-extralight" >
                         <li><a href="">+56984644530 </a></li>
-                        <li><a href=""> Correo</a></li>
-                        <li><a href=""> QAv. Alonso de Cordova 4212, Of 2B, Vitacura.</a></li>
+                        <li><a href="">hola@daffl.com</a></li>
+                        <li><a href=""> Av. Alonso de Cordova 4212, Of 2B, Vitacura.</a></li>
 
                     </ul>
 
                     <ul class="flex">
-                        <li><img src="assets/img/in.svg" alt="" class="w-12 mb-2"></li>
-                        <li><img src="assets/img/face.svg" alt="" class="w-12 mb-2"></li>
-                        <li><img src="assets/img/ig.svg" alt="" class="w-12 mb-2"></li>
+                        <li><a href="https://www.linkedin.com/company/80884840/admin/"><img src="assets/img/in.svg" alt="" class="w-12 mb-2"></a></li>
+                        <li><a href="https://www.instagram.com/daffl.chile/"><img src="assets/img/ig.svg" alt="" class="w-12 mb-2"></a></li>
 
                     </ul>
                 </div>

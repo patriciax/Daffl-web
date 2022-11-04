@@ -2,6 +2,7 @@ $(document).ready(function () {
   $(".slider").slick({
     dots: false,
     infinite: true,
+    arrows: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -68,7 +69,8 @@ $(document).ready(function () {
     slidesToShow: 3,
     slidesToScroll: 1,
     centerMode: true,
-    arrows: true,
+    arrows: false,
+
     dots: false,
     speed: 300,
     centerPadding: "20px",
@@ -130,3 +132,15 @@ items.forEach((item) => item.addEventListener("click", toggleAccordion));
 window.setTimeout(function () {
   $(".elipse").fadeOut(100);
 }, 2000);
+
+$(function () {
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 200) {
+      $(".header-nav").addClass("bg-white shadow-md ");
+      $(".btn-nav").addClass("border-primary text-primary");
+    } else {
+      $(".header-nav").removeClass("bg-white shadow-md ");
+      $(".btn-nav").removeClass("border-primary text-primary");
+    }
+  });
+});

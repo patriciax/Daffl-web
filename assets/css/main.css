@@ -102,19 +102,19 @@ html {
   text-align: start;
 }
 
-.slider-clients .slick-arrow.slick-prev {
+.slick-arrow.slick-prev {
   left: 0;
   background: url("../img/arrow.svg") 0 0 / 100% no-repeat;
   background-size: contain;
   transform: rotate(180deg);
 }
-.slider-clients .slick-arrow.slick-next {
+ .slick-arrow.slick-next {
   right: 0;
   background: url("../img/arrow.svg") 0 0 / 100% no-repeat;
   background-size: contain;
 }
-.slick-next,
-.slick-prev {
+.slider-clients .slick-next,
+.slider-clients .slick-prev {
   top: 65% !important;
 }
 .slick-next:before,
@@ -445,4 +445,9 @@ html {
   100% {
     opacity: 0.8;
   }
+}
+
+.hover-drop:hover
+#sortboxmenu{
+  opacity: 100;
 }

@@ -6,7 +6,7 @@
             <h1 class="font-black text-3xl xl:text-6xl text-primary mt-12 mb-2">Daffl <br /> tu solución para <br /> <span class="text-secondary"> hacer crecer </span></h1>
             <p class="text-sm lg:text-base max-w-md font-light mb-3">Daffl te ayuda a hacer crecer tu marca con una estrategia de fulfillment colaborativa Daffl te ayuda a hacer crecer tu marca con una estrategia de fulfillment colaborativa Daffl te ayuda a hacer crecer tu marca con una estrategia de fulfillment colaborativa</p>
             <button class="shadow-btn px-6 py-2 block text-white hover:text-primary hover:bg-white border border-transparent hover:border-primary rounded-10 bg-primary">
-                <a class="   " href="#">Contacto</a>
+                <a class="   " href="/contacto.php">Contacto</a>
             </button>
         </div>
     </section>
@@ -42,7 +42,7 @@
         <h1 class="font-black text-4xl xl:text-6xl text-primary mt-12 mb-2">Conoce <br /> <span class="text-secondary"> nuestro gran <br> equipo </span></h1>
         <p class="text-base max-w-md font-light mb-3">Daffl te ayuda a hacer crecer tu marca con una estrategia de fulfillment colaborativa</p>
         <button class="shadow-btn px-6 py-2 block text-white hover:text-primary hover:bg-white border border-transparent hover:border-primary rounded-10 bg-primary">
-            <a class="   " href="#">Contacto</a>
+            <a class="   " href="/contacto.php">Contacto</a>
         </button>
     </div>
     <div>

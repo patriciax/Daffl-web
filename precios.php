@@ -17,21 +17,21 @@
 
     <div class="grid grid-cols-1 lg:grid-cols-3 place-items-center">
         <div class=" card-price">
-            <p class="text-3xl font-bold text-primary">120k</p>
+            <p class="text-3xl font-bold text-primary">Almacenaje</p>
             <button class="shadow-btn px-6 py-2 block text-white hover:text-primary hover:bg-white border border-transparent hover:border-primary rounded-10 bg-primary">
-                <a class="   " href="#">Contacto</a>
+                <a class="   " href="/contacto.php">Contacto</a>
             </button>
         </div>
         <div class=" card-price">
-            <p class="text-3xl font-bold text-primary">120k</p>
+            <p class="text-3xl font-bold text-primary">Picking</p>
             <button class="shadow-btn px-6 py-2 block text-white hover:text-primary hover:bg-white border border-transparent hover:border-primary rounded-10 bg-primary">
-                <a class="   " href="#">Contacto</a>
+                <a class="   " href="/contacto.php">Contacto</a>
             </button>
         </div>
         <div class=" card-price">
-            <p class="text-3xl font-bold text-primary">120k</p>
+            <p class="text-3xl font-bold text-primary">Despacho</p>
             <button class="shadow-btn px-6 py-2 block text-white hover:text-primary hover:bg-white border border-transparent hover:border-primary rounded-10 bg-primary">
-                <a class="   " href="#">Contacto</a>
+                <a class="   " href="/contacto.php">Contacto</a>
             </button>
         </div>
 
