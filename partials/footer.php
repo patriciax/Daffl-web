@@ -22,26 +22,27 @@
                 <div>
                     <p class="font-bold mb-4 uppercase">Menú </p>
                     <ul class="font-extralight">
-                        <li><a href="">Inicio</a></li>
-                        <li><a href=""> Quienes somos </a></li>
-                        <li><a href=""> Quiero ser Daffler</a></li>
-                        <li><a href=""> Precios </a></li>
-                        <li><a href=""> Servicios </a></li>
-                        <li><a href=""> Contacto </a></li>
+                        <li><a href="/">Inicio</a></li>
+                        <li><a href="/about.php"> Quienes somos </a></li>
+                        <li><a href="/daffer-repartidor.php"> Quiero ser Repartidor</a></li>
+                        <li><a href="/daffer-bodega.php"> Quiero ser Bodega</a></li>
+                        <li><a href="/precios.php"> Precios </a></li>
+                        <li><a href="/servicios.php"> Servicios </a></li>
+                        <li><a href="/contacto.php"> Contacto </a></li>
                     </ul>
                 </div>
                 <div>
                     <p class="font-bold mb-4">CONTÁCTANOS</p>
                     <ul class="mb-6 font-extralight" >
-                        <li><a href="">+56984644530 </a></li>
-                        <li><a href="">hola@daffl.com</a></li>
+                        <li><a href="tel:+56984644530">+56984644530 </a></li>
+                        <li><a href="mailto:hola@daffl.com">hola@daffl.com</a></li>
                         <li><a href=""> Av. Alonso de Cordova 4212, Of 2B, Vitacura.</a></li>
 
                     </ul>
 
                     <ul class="flex">
-                        <li><a href="https://www.linkedin.com/company/80884840/admin/"><img src="assets/img/in.svg" alt="" class="w-12 mb-2"></a></li>
-                        <li><a href="https://www.instagram.com/daffl.chile/"><img src="assets/img/ig.svg" alt="" class="w-12 mb-2"></a></li>
+                        <li><a href="https://www.linkedin.com/company/80884840/admin/" target="_blank"><img src="assets/img/in.svg" alt="" class="w-12 mb-2"></a></li>
+                        <li><a href="https://www.instagram.com/daffl.chile/" target="_blank"><img src="assets/img/ig.svg" alt="" class="w-12 mb-2"></a></li>
 
                     </ul>
                 </div>

@@ -1,4 +1,4 @@
-<section class="relative max-5xl mx-auto mb-40">
+<section class="relative max-5xl mx-auto lg:mb-40">
     <div class="max-w-xl mx-auto ">
         <div class="absolute z-0 w-full max-w-xl mx-auto  " style="background-image:url(assets/img/oval.svg);    background-size: contain; background-position: center;   background-repeat: no-repeat;
     width: 100%;

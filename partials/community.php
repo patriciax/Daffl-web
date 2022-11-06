@@ -4,7 +4,7 @@
             <h2 class="font-black text-4xl xl:text-6xl text-primary mt-12 mb-2">Sé parte de</h2>
             <h2 class="font-black text-4xl xl:text-6xl  mb-3 text-white"> nuestra <br /> comunidad</h2>
             <p class="text-base max-w-md mb-3 text-white font-extralight	">Daffl te ayuda a hacer crecer tu marca con una estrategia de fulfillment colaborativa</p>
-            <div class="flex gap-4">
+            <div class="flex lg:flex-row flex-col gap-4">
 
                 <button class="shadow-btn px-6 py-2 block text-white hover:text-primary hover:bg-white border border-transparent hover:border-primary rounded-10 bg-primary">
                     <a class="/daffer-bodega.php" href="/contacto.php">Ser boguedero</a>

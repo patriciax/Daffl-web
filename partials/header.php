@@ -65,7 +65,7 @@
                         <a class=" xl:mr-10  lg:mr-6  py-2 block hover:text-primary " href="/servicios.php">Servicios</a>
                     </li>
                     <li>
-                        <a class=" px-4 py-1.5 block text-white hover:text-primary border border-transparent rounded-10 bg-primary hover:bg-white xl:mr-10  lg:mr-6 " href="/contacto.php">Contactar</a>
+                        <a class=" px-4 py-1.5 block text-white hover:text-primary border border-transparent rounded-10 bg-primary hover:bg-white xl:mr-10  lg:mr-6 mb-4 lg:mb-0 " href="/contacto.php">Contactar</a>
                     </li>
                     <li>
                         <a class="btn-nav px-4 py-1.5  block text-white hover:bg-primary border rounded-10 border-2 " href="">Ingresar</a>
